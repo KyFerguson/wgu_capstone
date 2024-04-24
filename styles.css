@@ -1,0 +1,91 @@
+/* General styles for all cards */
+.card {
+    margin: 2.5%;
+    font-family: sans-serif;
+    font-size: medium;
+    padding: 2.5%;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for accountInfo card type */
+.card-type-accountInfo {
+    background-color: #e3e6e9; /* Darker blue on hover */
+    margin: 2.5%;
+    padding: 2.5%;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+}
+
+.card-type-accountInfo .leftTitle {
+    /* Styles for leftTitle within accountInfo card */
+    color: #080101; /* Blue text color, for example */
+}
+
+.card-type-accountInfo .leftSubtitle {
+    font-family: sans-serif;
+    /* Styles for leftSubtitle within accountInfo card */
+}
+
+.card-type-accountInfo .rightTitle {
+    /* Styles for rightTitle within accountInfo card */
+    color: #02060a; /* Blue text color, for example */
+}
+
+.card-type-accountInfo .rightSubtitle {
+    font-family: sans-serif;
+    /* Styles for rightSubtitle within accountInfo card */
+}
+
+
+/* Styles for other card types */
+.card-type-payBill {
+    background-color: #e3e6e9; /* Darker blue on hover */
+}
+
+.card-type-usageHistory {
+    background-color: #e3e6e9; /* Darker blue on hover */
+    align-items: flex-start;
+}
+.card-type-nav {
+    background-color: #f9f9f9; /* Slightly off-white background for navigation card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #000000; /* White text color */
+    text-align: middle;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.nav-container button:hover {
+    background-color: #e3e6e9; /* Darker blue on hover */
+}
+
+.hero-banner-container.backgroundImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-banner-container {
+    background-size: cover;
+    height: 600px; /* Increase the height to fit the picture */
+    width: 100%;
+    color: rgb(0, 0, 0);
+    /* Add other styles as needed */
+}
